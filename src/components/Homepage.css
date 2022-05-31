@@ -1,0 +1,67 @@
+#video{
+
+    background: #000;
+}
+/* 
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up) */
+#vision{
+    background: #000;
+    border-radius:2em;
+    color: aliceblue;
+    padding: 1%;
+    margin: 1%;
+}
+#vision p{
+    font-size: larger;
+}
+#Goal{
+    background: #000;
+    border-radius:2em; 
+    color: aliceblue;
+    padding: 1%;
+    margin: 1%;
+}
+#Goal p{
+    font-size: larger;
+}
+
+#about p{
+    font-size: larger;
+}
+#about{
+    height: 50%;
+    padding: 2%;
+    margin: 2%;
+}
+
+.parent {
+    text-align: center;
+    justify-content: center;
+  }
+  .child {
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
+    width: 45%;
+    height: 300px;
+
+  }
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 600px) { 
+    #about{
+       height: 400px;
+    }
+ }
+
+@media (max-width: 4700px) { 
+    #about{
+       height: 500px;
+    }
+ }
+@media (max-width: 768px) { 
+    #vision{
+       margin-bottom: 12px;
+    }
+ }
