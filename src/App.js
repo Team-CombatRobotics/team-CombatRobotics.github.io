@@ -1,15 +1,12 @@
 import './App.css';
 import CurrentTeam from './components/CurrentTeam';
-import Footer from './components/Footer';
 import Homepage from './components/Homepage';
-import Navbar from './components/Navbar';
 import Works from './components/Works';
 import Alumni from './components/Alumni'
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  // Navigate,
 } from "react-router-dom";
 
 function App() {
