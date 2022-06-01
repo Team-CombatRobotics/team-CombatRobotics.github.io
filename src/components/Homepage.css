@@ -1,6 +1,9 @@
 #video{
-
     background: #000;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100vh;
 }
 /* 
 // X-Small devices (portrait phones, less than 576px)
@@ -12,28 +15,42 @@
     color: aliceblue;
     padding: 1%;
     margin: 1%;
+    text-align: center;
+    justify-content: center;
 }
 #vision p{
     font-size: larger;
+    text-align: center;
+    justify-content: center;
 }
-#Goal{
+#Mission{
     background: #000;
     border-radius:2em; 
     color: aliceblue;
     padding: 1%;
     margin: 1%;
+    text-align: center;
+    justify-content: center;
 }
-#Goal p{
+#Mission p{
     font-size: larger;
+    text-align: center;
+    justify-content: center;
 }
 
-#about p{
+.aboutus p{
     font-size: larger;
+    text-align: center;
+    justify-content: center;
 }
-#about{
-    height: 50%;
+.aboutus{
+    height: 50vh;
+    position: relative;
     padding: 2%;
-    margin: 2%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
 }
 
 .parent {
@@ -46,6 +63,42 @@
     justify-content: center;
     width: 45%;
     height: 300px;
+
+  }
+
+  #sponsors{
+    margin: auto;
+    position: relative;
+    width: 50%;
+  }
+
+  #sponsors img{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+  }
+
+  #contactUs {
+    margin: auto;
+    position: relative;
+    width: 100%;
+  }
+
+  .Contacts {
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+  }
+
+  .teampic{
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
+    width: 50%;
+    height: auto;
 
   }
 /* // Medium devices (tablets, 768px and up) */
