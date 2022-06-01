@@ -4,7 +4,6 @@ const Alumni = () => {
   return (
     <div>
         <h1 className='text-center pt-3' style={{textAlign:"center"}}>2020-21</h1>
-            <hr className='w-25 mx-auto '/>
                 <div className='container'>
 
                     <div className='card'>
