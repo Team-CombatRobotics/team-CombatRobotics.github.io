@@ -12,7 +12,7 @@ const Homepage = () => {
       </section>
 
       <div className='container-fluid ' style={{ backgroundColor: "#FFDE59", padding: "22px" }}>
-        <section className='aboutus ' style={{ background: "#000", borderRadius: "2em", color: "aliceblue" }} id='aboutUs'>
+        <section className='aboutus' style={{ background: "#000", borderRadius: "2em", color: "aliceblue" }} id='aboutUs'>
 
           <div className='container p-5'>
             <div className='row mx-auto '>
@@ -50,9 +50,9 @@ const Homepage = () => {
 
 
 
-            <div className='child ' id='Goal' >
+            <div className='child ' id='Mission' >
               <div>
-                <h1 className='mainabout text-center text-capitalize mt-5 display-1'  >Goal</h1>
+                <h1 className='mainabout text-center text-capitalize mt-5 display-1'  >Mission</h1>
                 <hr className='w-1 mx-auto ' />
               </div>
               <p >
@@ -70,6 +70,7 @@ const Homepage = () => {
 
       <section id='sponsors'>
         <h1 className='mainabout text-center text-capitalize mt-5 display-1' >Sponsors</h1>
+        <br/>
         <hr className=' mx-auto ' style={{ width: "20vw" }} />
         <div className='row mx-auto'>
           <div className='col-lg-12 col-md-12 col-sm-12 mx-auto  '>
@@ -81,21 +82,13 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section id='contactUs' style={{ color: "aliceblue", background: "#000" }} className='p-5'>
+      <section id='contactUs' style={{ color: "aliceblue", background: "#000" }} >
         <div>
-          {/* <h1 className='mainabout text-center text-capitalize mt-5 display-1' >Contact Us</h1> */}
+          <h1 className='text-capitalize'>Contact Us!</h1>
           <hr className='w-10 mx-auto' />
-
-          <div className='row my-5'>
-            <div className='col-sm-12 col-md-6 col-lg-6 '>
-              <figure>
-                <img className='img-fluid' src='images/team.jpeg' alt='' />
-              </figure>
-            </div>
-            <div className='col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-start flex-column'>
-              <h1 className='text-capitalize'>Contact Us!</h1>
+          <div className='parent'>
+          <div className='Contacts'>
               <div className='container-fluid d-flex justify-content-start align-items-center flex-row'>
-                <hr />
                 <i className='fa fa-volume-control-phone ' id='phonenumber' style={{ color: "aliceblue" }} aria-hidden='true'> +9189715 68267</i>
 
                 <div className='vl m-2'></div>
@@ -107,6 +100,14 @@ const Homepage = () => {
                 Location -: Behind MIT Central Library
               </h2>
             </div>
+          <div className='teampic'>
+            <div className='col-sm-12 col-md-6 col-lg-6 '>
+              <figure>
+                <img className='img-fluid' src='images/team.jpeg' alt='' />
+              </figure>
+            </div>
+            </div>
+            
 
           </div>
 
