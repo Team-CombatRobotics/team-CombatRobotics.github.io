@@ -12,7 +12,7 @@ const Homepage = () => {
       </section>
 
       <div className='container-fluid ' style={{ backgroundColor: "#FFDE59", padding: "22px" }}>
-        <section className='aboutus ' style={{ background: "#000", borderRadius: "2em", color: "aliceblue" }}>
+        <section className='aboutus ' style={{ background: "#000", borderRadius: "2em", color: "aliceblue" }} id='aboutUs'>
 
           <div className='container p-5'>
             <div className='row mx-auto '>
@@ -81,7 +81,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section id='Contactus' style={{ color: "aliceblue", background: "#000" }} className='p-5'>
+      <section id='contactUs' style={{ color: "aliceblue", background: "#000" }} className='p-5'>
         <div>
           {/* <h1 className='mainabout text-center text-capitalize mt-5 display-1' >Contact Us</h1> */}
           <hr className='w-10 mx-auto' />
