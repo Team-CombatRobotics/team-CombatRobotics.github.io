@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import React from "react";
 
 const Navbar = () => {
@@ -13,9 +14,9 @@ const Navbar = () => {
 
       <div className="topbarRight">
         <div className="topbarLinks">
-          <Link to="#aboutUs" style={{ textDecoration: "none", color:"black" }}>
+          <HashLink to="#aboutUs" style={{ textDecoration: "none", color:"black" }}>
             <span className="topbarLink">About Us</span>
-          </Link>
+          </HashLink>
           <Link to="/team" style={{ textDecoration: "none", color:"black" }}>
             <span className="topbarLink">Team</span>
           </Link>
@@ -25,9 +26,12 @@ const Navbar = () => {
           <Link to="/works" style={{ textDecoration: "none", color:"black" }}>
             <span className="topbarLink">Works</span>
           </Link>
-          <Link to="#contactUs" style={{ textDecoration: "none", color:"black" }}>
+          <HashLink to="#sponsors" style={{ textDecoration: "none", color:"black" }}>
+            <span className="topbarLink">Sponsors</span>
+          </HashLink>
+          <HashLink to="#contactUs" style={{ textDecoration: "none", color:"black" }}>
             <span className="topbarLink">Contact</span>
-          </Link>
+          </HashLink>
         </div>
       </div>
     </div>
