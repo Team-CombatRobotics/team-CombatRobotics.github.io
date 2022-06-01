@@ -4,7 +4,6 @@ import "./CurrentTeam.css"
 const CurrentTeam = () => {
     return <>
         <h1 className='text-center pt-3' style={{textAlign:"center"}}>2021-22</h1>
-        <hr className='w-25 mx-auto ' />
         <div className='container'>
             <div className='card'>
                 <div className='imgbox'>
