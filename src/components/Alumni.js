@@ -3,7 +3,7 @@ import React from 'react'
 const Alumni = () => {
   return (
     <div>
-        <h1 className='text-center pt-3'>Alumni</h1>
+        <h1 className='text-center pt-3' style={{textAlign:"center"}}>2020-21</h1>
             <hr className='w-25 mx-auto '/>
                 <div className='container'>
 
@@ -17,7 +17,7 @@ const Alumni = () => {
                                 <hr />
                             </h4>
                             <p ><pre style={{overflow: "hidden"}}>Sub-System-Management
-
+                            <br/><br/>
                                 Role-Team Leader
                             </pre>
                                 <div className='logos mx-auto'>
@@ -39,7 +39,7 @@ const Alumni = () => {
                                 <hr />
                             </h4>
                             <p><pre style={{overflow: "hidden"}}>Sub-System-Management
-
+                            <br/><br/>
                                 Role-Team Manager
                             </pre>
                                 <div className='logos mx-auto'>
@@ -61,7 +61,7 @@ const Alumni = () => {
                                 <hr />
                             </h4>
                             <p><pre style={{overflow: "hidden"}}>Sub-System-Management
-
+                            <br/><br/>
                                 Role-HR
                             </pre>
                                 <div className='logos mx-auto'>
@@ -83,7 +83,7 @@ const Alumni = () => {
                                 <hr />
                             </h4>
                             <p><pre>Sub-System-Electronics
-
+                            <br/><br/>
                                 Role-Head
                             </pre>
                                 <div className='logos mx-auto'>
@@ -106,7 +106,7 @@ const Alumni = () => {
                                 <hr />
                             </h4>
                             <p><pre>Sub-System-Electronics
-
+                            <br/><br/>
                                 Role-Head(CnR)
                             </pre>
                                 <div className='logos mx-auto'>
@@ -129,7 +129,7 @@ const Alumni = () => {
                                 <hr />
                             </h4>
                             <p><pre>Sub-System-Mechanical
-
+                            <br/><br/>
                                 Role-Member
                             </pre>
                                 <div className='logos mx-auto'>
@@ -151,226 +151,13 @@ const Alumni = () => {
                                 <hr />
                             </h4>
                             <p><pre>Sub-System-Management
-
+                            <br/><br/>
                                 Role-Member
                             </pre>
                                 <div className='logos mx-auto'>
                                     <a href='https://www.linkedin.com/in/suhail-moidin-673908188/'><i className='fab fa-linkedin'></i></a>
 
                                     <a href='https://www.instagram.com/suhailegit/'><i className='fab fa-instagram'></i></a>
-
-                                </div>
-                            </p>
-                        </div>
-                    </div>
-                    <div className='card'>
-                        <div className='imgbox'>
-                            <img src='images/IMG_20210829_195329 - Thaejus Surya.jpg' style={{width: "220px", height:"230px"}} alt='' />
-                        </div>
-                        <div className='details'>
-                            <h4>
-                                Thaejus Surya M T
-                                <hr />
-                            </h4>
-                            <p><pre>Sub-System-Electronics
-
-                                Role-Member
-                            </pre>
-                                <div className='logos mx-auto'>
-                                    <a href='https://www.linkedin.com/in/thaejus-surya-m-t-96825a1b7/'><i className='fab fa-linkedin'></i></a>
-
-                                    <a href='https://www.instagram.com/trippy_._mind/'><i className='fab fa-instagram'></i></a>
-                                    <a href='https://github.com/thaejus-surya'><i className='fab fa-github'></i></a>
-                                </div>
-                            </p>
-                        </div>
-                    </div>
-                    <div className='card'>
-                        <div className='imgbox'>
-                            <img src='images/WhatsApp Image 2021-11-06 at 7.29.46 PM - Aaron Dsouza.jpeg' style={{width: "220px", height:"230px"}} alt='' />
-                        </div>
-                        <div className='details'>
-                            <h4>
-                                Aaron D'souza
-                                <hr />
-                            </h4>
-                            <p><pre>Sub-System-Electronics
-
-                                Role-Member
-                            </pre>
-                                <div className='logos mx-auto'>
-                                    <a href='https://www.linkedin.com/in/aaron-dsouza-46b279220/'><i className='fab fa-linkedin'></i></a>
-
-                                    <a href='https://www.instagram.com/aaron_dsoza/'><i className='fab fa-instagram'></i></a>
-                                    <a href='https://github.com/DsouzaAaron'><i className='fab fa-github'></i></a>
-                                </div>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className='card'>
-                        <div className='imgbox'>
-                            <img src='images/Screenshot 2022-02-25 at 4.52.20 PM.png' style={{width: "220px", height:"230px"}} alt='' />
-                        </div>
-                        <div className='details'>
-                            <h4>
-                                Parv Jain
-                                <hr />
-                            </h4>
-                            <p><pre className='pretag' style={{overflow: "hidden"}}>Sub-System-Management
-
-                                Role-Member
-                            </pre>
-                                <div className='logos mx-auto'>
-                                    <a href='https://www.linkedin.com/in/parv-jain-74799a1b6'><i className='fab fa-linkedin'></i></a>
-
-                                    <a href='https://www.instagram.com/prv15_2/?hl=en'><i className='fab fa-instagram'></i></a>
-                                    <a href='https://github.com/parvjain-dev'><i className='fab fa-github'></i></a>
-                                </div>
-                            </p>
-                        </div>
-                    </div>
-                    <div className='card'>
-                        <div className='imgbox'>
-                            <img src='images/afnan.jpeg' style={{width: "220px", height:"230px"}} alt='' />
-                        </div>
-                        <div className='details'>
-                            <h4>
-                                Mohammed Afnan
-                                <hr />
-                            </h4>
-                            <p><pre>Sub-System-Member
-
-                                Role-Member
-                            </pre>
-                                <div className='logos mx-auto'>
-                                    <a href='https://www.linkedin.com/in/mohammed-afnan-samad-3121891bb'><i className='fab fa-linkedin'></i></a>
-
-                                    <a href='https://www.instagram.com/afnan_althaf/'><i className='fab fa-instagram'></i></a>
-                                    <a href='https://github.com/glytch3'><i className='fab fa-github'></i></a>
-                                </div>
-                            </p>
-                        </div>
-                    </div>
-                    <div className='card'>
-                        <div className='imgbox'>
-                            <img src='images/IMG20210128120546 - Ashutosh m Kotian.jpg' style={{width: "220px", height:"230px"}} alt='' />
-                        </div>
-                        <div className='details'>
-                            <h4>
-                                Ashutosh M Kotian
-                                <hr />
-                            </h4>
-                            <p><pre>Sub-System-Management
-
-                                Role-Member
-                            </pre>
-                                <div className='logos mx-auto'>
-                                    <a href='http://www.linkedin.com/in/ashutosh-m-kotian-a266693218'><i className='fab fa-linkedin'></i></a>
-
-                                    <a href='https://www.instagram.com/ash_king_23/'><i className='fab fa-instagram'></i></a>
-
-                                </div>
-                            </p>
-                        </div>
-                    </div>
-                    <div className='card'>
-                        <div className='imgbox'>
-                            <img src='images/sumeetimg.jpeg' style={{width: "220px", height:"230px"}} alt='' />
-                        </div>
-                        <div className='details'>
-                            <h4>
-                                Summet Sawairam
-                                <hr />
-                            </h4>
-                            <p><pre>Sub-System-Management
-
-                                Role-Member
-                            </pre>
-                                <div className='logos mx-auto'>
-                                    <a href='https://www.linkedin.com/in/sumeet-sawairam-724963215'><i className='fab fa-linkedin'></i></a>
-
-                                    <a href='https://www.instagram.com/mr_hope07/'><i className='fab fa-instagram'></i></a>
-                                    < a href='https://github.com/Gagandeep-22'><i className='fab fa-github'></i></a>
-                                </div>
-                            </p>
-                        </div>
-                    </div>
-                    <div className='card'>
-                        <div className='imgbox'>
-                            <img src='images/Screenshot_20220220-121353 - Anurag Dhole.png' style={{width: "220px", height:"230px"}} alt='' />
-                        </div>
-                        <div className='details'>
-                            <h4>
-                                Anurag Dhole
-                                <hr />
-                            </h4>
-                            <p><pre>Sub-System-Mechanical
-
-                                Role-Member
-                            </pre>
-                                <div className='logos mx-auto'>
-
-                                </div>
-                            </p>
-                        </div>
-                    </div>
-                    <div className='card'>
-                        <div className='imgbox'>
-                            <img src='images/PuneethS_Photo - Puneeth Shankar.jpg' style={{width: "220px", height:"230px"}} alt='' />
-                        </div>
-                        <div className='details'>
-                            <h4>
-                                Puneeth S
-                                <hr />
-                            </h4>
-                            <p><pre>Sub-System-Electrical
-
-                                Role-Member
-                            </pre>
-                                <div className='logos mx-auto'>
-
-                                </div>
-                            </p>
-                        </div>
-                    </div>
-                    <div className='card'>
-                        <div className='imgbox'>
-                            <img src='images/white-IMG-20220206-WA0021 - naman bhat.jpg' style={{width: "220px", height:"230px"}} alt='' />
-                        </div>
-                        <div className='details'>
-                            <h4>
-                                Naman Bhat
-                                <hr />
-                            </h4>
-                            <p><pre>Sub-System-Mechanical
-
-                                Role-Member
-                            </pre>
-                                <div className='logos mx-auto'>
-
-                                </div>
-                            </p>
-                        </div>
-                    </div>
-                    <div className='card'>
-                        <div className='imgbox'>
-                            <img src='images/A351625F-0E6A-4BFE-B56C-EF5D84C08600 - Himanshu Yadav.jpeg' style={{width: "220px", height:"230px"}} alt='' />
-                        </div>
-                        <div className='details'>
-                            <h4>
-                                Himanshu Yadav
-                                <hr />
-                            </h4>
-                            <p><pre>Sub-System-Mechanical
-
-                                Role-Member
-                            </pre>
-                                <a href='https://www.linkedin.com/mwlite/in/himanshu--yadav'><i className='fab fa-linkedin'></i></a>
-
-                                <a href='https://www.instagram.com/_himanshu14/'><i className='fab fa-instagram'></i></a>
-
-                                <div className='logos mx-auto'>
 
                                 </div>
                             </p>
