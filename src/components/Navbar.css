@@ -1,73 +1,192 @@
-.topbarContainer {
-    height: 50px;
-    width: 100%;
-    background-color: #FFDE59;
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-  }
-  
-  .topbarLeft {
-    flex: 1;
-  }
-  
-  .name {
-    font-size: 24px;
-    margin-left: 20px;
-    font-weight: bold;
-    color: black;
-    cursor: pointer;
-  }
-  
-  .topbarRight {
-    flex: 1;
-    display: flex;
-    align-items: right;
-    justify-content: space-around;
-    color: black;
-  }
-  
-  .topbarLink {
-    margin-right: 50px;
-    font-size: 14px;
-    cursor: pointer;
-    height: 100%;
-    display: inline-flex;
-    align-items: center;
-    position: relative;
-    text-transform: uppercase;
-    transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-  
-  .topbarImg {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-    cursor: pointer;
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* 
+ 
+
+/* navbar style start  */
+
+.main-nav {
+  height: 50px;
+  width: 100%;
+  background-color: #FFDE59;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: grid;
+  grid-template-columns: 5rem 1fr 1fr 2fr 5rem;
+}
+
+.logo {
+  display: grid;
+  grid-column: 2/3;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-link {
+  grid-column: 4/5;
+}
+
+.menu-link ul {
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+/* ----------- Grid part ends ----------------- */
+
+.logo h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.menu-link ul li {
+  font-size: 14px;
+}
+
+.topbarLink {
+  margin-right: 50px;
+  font-size: 14px;
+  cursor: pointer;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.topbarLink:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  display: flex;
+  transition: all 0.3s ease;
+  bottom: 10%;
+}
+
+.topbarLink:hover::after {
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  background-color: black;
+}
+
+/* responsive css style  */
+@media (max-width: 1080px) {
+  .main-nav {
+    height: 4rem;
+    grid-template-columns: 2rem 3fr 1fr 3fr 2rem;
   }
 
-  .topbarLink:after {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 1px;
+  .logo,
+  .menu-link ul {
+    height: 8rem;
+  }
+}
+
+/* responsive css style  */
+@media (max-width: 998px) {
+  .main-nav {
+    height:3rem;
+    grid-template-columns: 2rem 3fr 2fr 2rem;
+  }
+
+  .menu-link {
+    display: none;
+  }
+
+  .logo {
+    height: 7rem;
+  }
+
+  mobile-menu-link {
+    grid-column: 2/4;
+    position: relative;
+    z-index: 99;
+  }
+
+  .mobile-menu-link {
+    background-color: #FFDE59;
+    height: 20rem;
+    display: grid;
+    grid-column: 2/5;
+    align-items: center;
+    padding-left: 3rem;
+    transition: all 2s linear;
+    transform-origin: top;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  .mobile-menu-link ul {
+    height: 20rem;
     display: flex;
-    transition: all 0.3s ease;
-    bottom: 10%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
   }
-  
-  .topbarLink:hover::after {
-    width: 100%;
-    height: 1px;
-    margin-top: 10px;
-    background-color: black;
+
+  .mobile-menu-link ul li:first-child {
+    transition-delay: 0.2s;
   }
-  
-  @media screen and (max-width: 768px)  {
-    .topbarLink{
-      display: none;
-    }
+
+
+  .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
   }
+}
+
+@media (max-width: 798px) {
+  .main-nav {
+    height: 6rem;
+    grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
+  }
+
+  .logo {
+    height: 6rem;
+  }
+
+  .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .main-nav {
+    height: 6rem;
+    grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
+  }
+
+  .logo {
+    height: 6rem;
+  }
+
+  .logo h2 {
+    font-size: 2rem;
+  }
+
+  .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+
+}
