@@ -1,41 +1,72 @@
+import React, { useState } from "react";
 import "./Navbar.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import React from "react";
 
 const Navbar = () => {
+  const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
-    <div className="topbarContainer">
-      <div className="topbarLeft">
-        <Link to="/" style={{ textDecoration: "none" }}>
-          <span className="name">TEAM COMBAT ROBOTICS</span>
-        </Link>
-      </div>
+    <>
+      <nav className="main-nav">
+        {/* 1st logo part  */}
+        <div className="logo">
+          <h2>
+            Team Combat Robotics
+          </h2>
+        </div>
 
-      <div className="topbarRight">
-        <div className="topbarLinks">
+        {/* 2nd menu part  */}
+        <div
+          className={
+            showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
+          }>
+            <ul>
+
+           <li>
           <HashLink to="#aboutUs" style={{ textDecoration: "none", color:"black" }}>
-            <span className="topbarLink">About Us</span>
+            <span className="topbarLink">About</span>
           </HashLink>
+          </li> 
+          <li>
           <Link to="/team" style={{ textDecoration: "none", color:"black" }}>
             <span className="topbarLink">Team</span>
           </Link>
+          </li>
+          <li>
           <Link to="/alumni" style={{ textDecoration: "none", color:"black" }}>
             <span className="topbarLink">Alumni</span>
           </Link>
+          </li>
+          <li>
           <Link to="/works" style={{ textDecoration: "none", color:"black" }}>
             <span className="topbarLink">Works</span>
           </Link>
+          </li> 
+          <li>
           <HashLink to="#sponsors" style={{ textDecoration: "none", color:"black" }}>
             <span className="topbarLink">Sponsors</span>
           </HashLink>
+          </li> 
+          <li>
           <HashLink to="#contactUs" style={{ textDecoration: "none", color:"black" }}>
             <span className="topbarLink">Contact</span>
           </HashLink>
-        </div>
-      </div>
-    </div>
-  );
-}
+          </li> 
 
-export default Navbar
+          </ul>
+        </div>
+        {/* hamburget menu start  */}
+        <div className="hamburger-menu">
+            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+              <GiHamburgerMenu />
+            </a>
+          </div>
+      </nav>
+
+      
+    </>
+  );
+};
+
+export default Navbar;
