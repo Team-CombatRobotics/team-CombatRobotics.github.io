@@ -36,8 +36,32 @@
 .column {
   flex: 50%;
 }
-/* @media (max-width: 768px) { 
-  #vision{
-     margin-bottom: 12px;
-  }
+
+/* .contactColumn {
+  float: left;
+  padding: 10px;
 } */
+.left {
+  width: 25%;
+  float: left;
+}
+
+.right {
+  width: 75%;
+  float: right;
+}
+
+@media (max-width: 768px) { 
+  .row{
+      display: none;
+      font-size: medium;
+  }
+  .largescreen {
+    display: none;
+  }
+}
+@media (min-width: 768px) { 
+  .smallscreen{
+      display: none;
+  }
+}
