@@ -1,120 +1,43 @@
 #video{
-    background: #000;
-    margin: auto;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-}
-/* 
-// X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-// Small devices (landscape phones, 576px and up) */
-#vision{
-    background: #000;
-    border-radius:2em;
-    color: aliceblue;
-    padding: 1%;
-    margin: 1%;
-    text-align: center;
-    justify-content: center;
-}
-#vision p{
-    font-size: larger;
-    text-align: center;
-    justify-content: center;
-}
-#Mission{
-    background: #000;
-    border-radius:2em; 
-    color: aliceblue;
-    padding: 1%;
-    margin: 1%;
-    text-align: center;
-    justify-content: center;
-}
-#Mission p{
-    font-size: larger;
-    text-align: center;
-    justify-content: center;
+  background: #000;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
-.aboutus p{
-    font-size: larger;
-    text-align: center;
-    justify-content: center;
-}
-.aboutus{
-    height: 50vh;
-    position: relative;
-    padding: 2%;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-    width: 90%;
+.centerize {
+  position: relative;
+  margin: auto;
+  width: 90%;
+  height: 100vh;
 }
 
-.parent {
-    text-align: center;
-    justify-content: center;
+.box {
+  background-color: #000;
+  color: #fff;
+  border-radius: 2em;
+  box-shadow: 5px 10px 10px #000;
+  margin: 2%;
+  padding: 5%;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+  margin-bottom: 5%;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+/* @media (max-width: 768px) { 
+  #vision{
+     margin-bottom: 12px;
   }
-  .child {
-    display: inline-block;
-    vertical-align: middle;
-    justify-content: center;
-    width: 45%;
-    height: 300px;
-
-  }
-
-  #sponsors{
-    margin: auto;
-    position: relative;
-    width: 50%;
-  }
-
-  #sponsors img{
-    margin: auto;
-    position: relative;
-    width: 100%;
-    height: 50vh;
-  }
-
-  #contactUs {
-    margin: auto;
-    position: relative;
-    width: 100%;
-  }
-
-  .Contacts {
-    display: inline-block;
-    vertical-align: middle;
-    justify-content: center;
-    width: 30%;
-    height: auto;
-  }
-
-  .teampic{
-    display: inline-block;
-    vertical-align: middle;
-    justify-content: center;
-    width: 50%;
-    height: auto;
-
-  }
-/* // Medium devices (tablets, 768px and up) */
-@media (max-width: 600px) { 
-    #about{
-       height: 400px;
-    }
- }
-
-@media (max-width: 4700px) { 
-    #about{
-       height: 500px;
-    }
- }
-@media (max-width: 768px) { 
-    #vision{
-       margin-bottom: 12px;
-    }
- }
+} */
